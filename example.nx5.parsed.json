@@ -1,0 +1,1416 @@
+{
+  "section_measurement": {
+    "section_metadata": {
+      "section_method": {
+        "name": "APTFIM-LEAP"
+      },
+      "section_sample": {
+        "name": "My precious PtIr specimen",
+        "uuid": "DummySampleUUID",
+        "section_material": {
+          "elements": [
+            "Pt",
+            "Ir"
+          ],
+          "nominal_composition": [
+            0.8999999761581421,
+            0.10000000149011612
+          ],
+          "shape": "tip",
+          "dimensions": [
+            24.0,
+            24.0,
+            100.0
+          ],
+          "section_constituents": [
+            {
+              "elements": "['Platinum', 'Ir']",
+              "description": "solid solution",
+              "crystal_structure": "fcc",
+              "nominal_composition": [
+                0.8999999761581421,
+                0.10000000149011612
+              ]
+            }
+          ]
+        }
+      },
+      "section_environment": {
+        "section_computers": [
+          {
+            "name": "DummyComputerName",
+            "uuid": "DummyComputerUUID",
+            "operating_system": "Win10 DummyVersion",
+            "section_cpus": [
+              {
+                "name": "Xeon"
+              }
+            ],
+            "section_gpgpus": [
+              {
+                "name": "Nvidia V100 32GB"
+              }
+            ],
+            "section_disks": [
+              {
+                "name": "DummySSD"
+              }
+            ]
+          }
+        ]
+      },
+      "section_tool": {
+        "name": "DummyLeapMicroscope",
+        "section_components": {
+          "section_laser": {
+            "section_emitter": {
+              "name": "DummyLaserEmitter"
+            }
+          },
+          "section_high_voltage_pulser": {
+            "name": "DummyHVPulser"
+          },
+          "section_reflectron": {
+            "name": "DummyReflectron"
+          },
+          "section_aperture": {},
+          "section_specimen_chamber": {
+            "name": "DummySpecimenChamber"
+          },
+          "section_ultra_high_vacuum_pump": {},
+          "section_specimen_holder": {
+            "name": "DummmySpecimenHolder"
+          }
+        },
+        "section_coordinates": {
+          "section_reference": {
+            "origin": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          },
+          "section_specimen_chamber": {
+            "origin": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "map_to_ref_origin": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "map_to_ref_matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          },
+          "section_specimen_holder": {
+            "origin": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "map_to_ref_origin": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "map_to_ref_matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          },
+          "section_specimen": {
+            "origin": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "map_to_ref_origin": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "map_to_ref_matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          },
+          "section_laser_probe": {
+            "origin": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "map_to_ref_origin": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "map_to_ref_matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          },
+          "section_detectors": {
+            "origin": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "map_to_ref_origin": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "map_to_ref_matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          }
+        }
+      },
+      "section_operators": [
+        {
+          "name": "Markus Kuhbach"
+        },
+        {
+          "name": "Nomad Experimentalist"
+        }
+      ],
+      "section_time_stamps": {
+        "start_utc": "2021-04-08 06:37:21.832286+00:00",
+        "end_utc": "2021-04-08 06:37:21.832286+00:00",
+        "start_local": "2021-04-08 08:37:21.834291",
+        "end_local": "2021-04-08 08:37:21.834291"
+      },
+      "section_process_status": {
+        "comment": "Successfully created dummy file for testing"
+      }
+    },
+    "section_data": {
+      "section_flight_path": {},
+      "section_laser": {
+        "section_emitter": {
+          "current": 0.0,
+          "wavelength": 0.0,
+          "incidence": 0.0
+        }
+      }
+    }
+  },
+  "section_calibration": {
+    "section_metadata": {
+      "section_method": {
+        "name": "APTFIM-Reconstruction"
+      },
+      "section_dataset": {
+        "name": "My precious RHIT/HITS file for the PtIr sample",
+        "uuid": "DummyDatasetUUID"
+      },
+      "section_environment": {
+        "section_computers": [
+          {
+            "name": "DummyComputerName",
+            "uuid": "DummyComputerUUID",
+            "operating_system": "Win10 DummyVersion",
+            "section_cpus": [
+              {
+                "name": "Xeon"
+              }
+            ],
+            "section_gpgpus": [
+              {
+                "name": "Nvidia V100 32GB"
+              }
+            ],
+            "section_disks": [
+              {
+                "name": "DummySSD"
+              }
+            ]
+          }
+        ]
+      },
+      "section_tool": {
+        "name": "IVAS",
+        "version": "v3.6.4",
+        "uuid": "DummyToolID",
+        "section_coordinates": {
+          "section_reference": {
+            "origin": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "section_components": {
+          "section_filter_hit_positions": {},
+          "section_filter_time_of_flight": {},
+          "section_bowl_correction": {}
+        }
+      },
+      "section_operators": [
+        {
+          "name": "IVAS application"
+        }
+      ],
+      "section_time_stamps": {
+        "start_utc": "2021-04-08 06:37:21.863431+00:00",
+        "end_utc": "2021-04-08 06:37:21.863431+00:00",
+        "start_local": "2021-04-08 08:37:21.865214",
+        "end_local": "2021-04-08 08:37:21.865214"
+      },
+      "section_process_status": {
+        "comment": "Successful calibration inside IVAS"
+      }
+    },
+    "section_data": {}
+  },
+  "section_reconstruction": {
+    "section_metadata": {
+      "section_method": {
+        "name": "APTFIM-Reconstruction"
+      },
+      "section_dataset": {
+        "name": "My precious RHIT/HITS file for the PtIr sample",
+        "uuid": "DummyDatasetUUID"
+      },
+      "section_environment": {
+        "section_computers": [
+          {
+            "name": "DummyComputerName",
+            "uuid": "DummyComputerUUID",
+            "operating_system": "Win10 DummyVersion",
+            "section_cpus": [
+              {
+                "name": "Xeon"
+              }
+            ],
+            "section_gpgpus": [
+              {
+                "name": "Nvidia V100 32GB"
+              }
+            ],
+            "section_disks": [
+              {
+                "name": "DummySSD"
+              }
+            ]
+          }
+        ]
+      },
+      "section_tool": {
+        "name": "IVAS",
+        "version": "v3.6.4",
+        "uuid": "DummyToolID",
+        "section_coordinates": {
+          "section_reference": {
+            "origin": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          },
+          "section_reconstruction": {
+            "origin": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "map_to_ref_origin": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "map_to_ref_matrix": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "section_components": {
+          "section_reconstruction_algorithm": {
+            "name": "DummyReconstructionName",
+            "protocol": "IVAS (modified Bas et al.)",
+            "field_factor": [
+              3.0
+            ],
+            "image_compression_factor": [
+              1.0099999904632568
+            ],
+            "atomic_volume": [
+              50.0
+            ]
+          }
+        }
+      },
+      "section_operators": [
+        {
+          "name": "IVAS application"
+        }
+      ],
+      "section_time_stamps": {
+        "start_utc": "2021-04-08 06:37:21.889715+00:00",
+        "end_utc": "2021-04-08 06:37:21.889715+00:00",
+        "start_local": "2021-04-08 08:37:21.891498",
+        "end_local": "2021-04-08 08:37:21.891498"
+      },
+      "section_process_status": {
+        "comment": "Successful reconstruction inside IVAS"
+      }
+    },
+    "section_data": {
+      "ion_records": [
+        [
+          200000.0
+        ],
+        [
+          200000.0
+        ],
+        [
+          200000.0
+        ],
+        [
+          200000.0
+        ],
+        [
+          200000.0
+        ],
+        [
+          200000.0
+        ],
+        [
+          200000.0
+        ],
+        [
+          200000.0
+        ],
+        [
+          200000.0
+        ],
+        [
+          200000.0
+        ]
+      ],
+      "pulse_number": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ],
+        [
+          10
+        ]
+      ],
+      "hit_positions": [
+        [
+          1.0,
+          1.0
+        ],
+        [
+          2.0,
+          2.0
+        ],
+        [
+          3.0,
+          3.0
+        ],
+        [
+          4.0,
+          4.0
+        ],
+        [
+          5.0,
+          5.0
+        ],
+        [
+          6.0,
+          6.0
+        ],
+        [
+          7.0,
+          7.0
+        ],
+        [
+          8.0,
+          8.0
+        ],
+        [
+          9.0,
+          9.0
+        ],
+        [
+          10.0,
+          10.0
+        ]
+      ],
+      "laser_energy": [
+        [
+          0.0
+        ],
+        [
+          0.0
+        ],
+        [
+          0.0
+        ],
+        [
+          0.0
+        ],
+        [
+          0.0
+        ],
+        [
+          0.0
+        ],
+        [
+          0.0
+        ],
+        [
+          0.0
+        ],
+        [
+          0.0
+        ],
+        [
+          0.0
+        ]
+      ],
+      "laser_position": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "standing_voltage": [
+        [
+          1000.0
+        ],
+        [
+          2000.0
+        ],
+        [
+          3000.0
+        ],
+        [
+          4000.0
+        ],
+        [
+          5000.0
+        ],
+        [
+          6000.0
+        ],
+        [
+          7000.0
+        ],
+        [
+          8000.0
+        ],
+        [
+          9000.0
+        ],
+        [
+          10000.0
+        ]
+      ],
+      "pulse_voltage": [
+        [
+          1000.0
+        ],
+        [
+          2000.0
+        ],
+        [
+          3000.0
+        ],
+        [
+          4000.0
+        ],
+        [
+          5000.0
+        ],
+        [
+          6000.0
+        ],
+        [
+          7000.0
+        ],
+        [
+          8000.0
+        ],
+        [
+          9000.0
+        ],
+        [
+          10000.0
+        ]
+      ],
+      "reflectron_voltage": [
+        [
+          1000.0
+        ],
+        [
+          2000.0
+        ],
+        [
+          3000.0
+        ],
+        [
+          4000.0
+        ],
+        [
+          5000.0
+        ],
+        [
+          6000.0
+        ],
+        [
+          7000.0
+        ],
+        [
+          8000.0
+        ],
+        [
+          9000.0
+        ],
+        [
+          10000.0
+        ]
+      ],
+      "specimen_holder_position": [
+        [
+          0.0010000000474974513,
+          0.0010000000474974513,
+          0.0010000000474974513
+        ],
+        [
+          0.0020000000949949026,
+          0.0020000000949949026,
+          0.0020000000949949026
+        ],
+        [
+          0.003000000026077032,
+          0.003000000026077032,
+          0.003000000026077032
+        ],
+        [
+          0.004000000189989805,
+          0.004000000189989805,
+          0.004000000189989805
+        ],
+        [
+          0.004999999888241291,
+          0.004999999888241291,
+          0.004999999888241291
+        ],
+        [
+          0.006000000052154064,
+          0.006000000052154064,
+          0.006000000052154064
+        ],
+        [
+          0.007000000216066837,
+          0.007000000216066837,
+          0.007000000216066837
+        ],
+        [
+          0.00800000037997961,
+          0.00800000037997961,
+          0.00800000037997961
+        ],
+        [
+          0.008999999612569809,
+          0.008999999612569809,
+          0.008999999612569809
+        ],
+        [
+          0.009999999776482582,
+          0.009999999776482582,
+          0.009999999776482582
+        ]
+      ],
+      "time_of_flight": [
+        [
+          9.999999717180685e-10
+        ],
+        [
+          1.999999943436137e-09
+        ],
+        [
+          3.000000026176508e-09
+        ],
+        [
+          3.999999886872274e-09
+        ],
+        [
+          4.999999969612645e-09
+        ],
+        [
+          6.000000052353016e-09
+        ],
+        [
+          7.000000135093387e-09
+        ],
+        [
+          7.999999773744548e-09
+        ],
+        [
+          8.99999985648492e-09
+        ],
+        [
+          9.99999993922529e-09
+        ]
+      ],
+      "mass_to_charge_state_ratio": [
+        [
+          10.0
+        ],
+        [
+          20.0
+        ],
+        [
+          30.0
+        ],
+        [
+          40.0
+        ],
+        [
+          50.0
+        ],
+        [
+          60.0
+        ],
+        [
+          70.0
+        ],
+        [
+          80.0
+        ],
+        [
+          90.0
+        ],
+        [
+          100.0
+        ]
+      ],
+      "specimen_temperature": [
+        [
+          40.0
+        ],
+        [
+          40.0
+        ],
+        [
+          40.0
+        ],
+        [
+          40.0
+        ],
+        [
+          40.0
+        ],
+        [
+          40.0
+        ],
+        [
+          40.0
+        ],
+        [
+          40.0
+        ],
+        [
+          40.0
+        ],
+        [
+          40.0
+        ]
+      ],
+      "multiplicity": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "ions_per_pulse": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "ion_positions": [
+        1.0,
+        1.0,
+        1.0,
+        2.0,
+        2.0,
+        2.0,
+        3.0,
+        3.0,
+        3.0,
+        4.0,
+        4.0,
+        4.0,
+        5.0,
+        5.0,
+        5.0,
+        6.0,
+        6.0,
+        6.0,
+        7.0,
+        7.0,
+        7.0,
+        8.0,
+        8.0,
+        8.0,
+        9.0,
+        9.0,
+        9.0,
+        10.0,
+        10.0,
+        10.0
+      ]
+    }
+  },
+  "section_ranging": {
+    "section_metadata": {
+      "section_method": {
+        "name": "APTFIM-Ranging"
+      },
+      "section_dataset": {
+        "name": "My precious RHIT/HITS file for the PtIr sample",
+        "uuid": "DummyDatasetUUID"
+      },
+      "section_environment": {
+        "section_computers": [
+          {
+            "name": "DummyComputerName",
+            "uuid": "DummyComputerUUID",
+            "operating_system": "Win10 DummyVersion",
+            "section_cpus": [
+              {
+                "name": "Xeon"
+              }
+            ],
+            "section_gpgpus": [
+              {
+                "name": "Nvidia V100 32GB"
+              }
+            ],
+            "section_disks": [
+              {
+                "name": "DummySSD"
+              }
+            ]
+          }
+        ]
+      },
+      "section_tool": {
+        "name": "IVAS",
+        "version": "v3.6.4",
+        "uuid": "DummyToolID",
+        "section_components": {
+          "section_tof_to_mq_mapping": {
+            "comment": "m proportional to calibrated tof with proprietary calibration factors"
+          },
+          "section_filter": {
+            "section_filter_mass_to_charge": {
+              "name": "DummyFilterMassToChargeName"
+            },
+            "section_filter_multiplicity": {
+              "name": "DummyFilterMultiplicityName"
+            },
+            "section_filter_ion_position": {
+              "name": "DummyFilterIonPositionsName"
+            },
+            "section_filter_ion_id": {
+              "name": "DummyFilterIonIDName",
+              "min_incr_max": [
+                0,
+                1,
+                10
+              ]
+            }
+          },
+          "section_binning": {
+            "name": "0.001 Da"
+          },
+          "section_background": {
+            "name": "DummyBackgroundAlgorithmName"
+          },
+          "section_peak_convolution": {
+            "name": "DummyPeakDeconvolutionAlgorithmName"
+          },
+          "section_peak_detection": {
+            "name": "DummyPeakDetectionAlgorithmName"
+          },
+          "section_signal_smoothing": {
+            "name": "DummySignalSmoothingAlgorithmName"
+          }
+        }
+      },
+      "section_operators": [
+        {
+          "name": "IVAS application"
+        }
+      ],
+      "section_time_stamps": {
+        "start_utc": "2021-04-08 06:37:21.922141+00:00",
+        "end_utc": "2021-04-08 06:37:21.922141+00:00",
+        "start_local": "2021-04-08 08:37:21.923010",
+        "end_local": "2021-04-08 08:37:21.923010"
+      },
+      "section_process_status": {
+        "comment": "Successful ranging using IVAS"
+      }
+    },
+    "section_data": {
+      "section_profiling": {
+        "max_nthreads_per_process": 1,
+        "max_ngpgpus_per_process": 0,
+        "max_nprocesses": 1
+      },
+      "section_ion_species": {
+        "ndisjoint_ion_species": 1,
+        "max_natoms_per_ion": 32,
+        "section_ions": [
+          {
+            "charge_state": 0,
+            "isotope_vector": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "mass_to_charge_ranges": [
+              [
+                0.0,
+                0.0010000000474974513
+              ]
+            ]
+          },
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}

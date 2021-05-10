@@ -21,19 +21,19 @@ import logging
 
 from nomad.datamodel import EntryArchive
 
-from eelsdbconverter import EELSApiJsonConverter
+from aptfimleapparser import AptFimLeapParser
 
 
 @pytest.fixture
 def parser():
-    return EELSApiJsonConverter()
+    return AptFimLeapParser()
 
 
 def test_example(parser):
     archive = EntryArchive()
-    parser.parse('tests/Test1/metadata.json', archive, logging)
+    parser.run('tests/data/example.nx5', archive, logging)
 
-    measurement = archive.section_measurement[0]
-    assert measurement.section_metadata[0].section_sample[0].sample_id is not None
-    assert measurement.section_metadata[0].section_experiment[0].method_name is not None
-    assert measurement.section_data[0].section_spectrum[0].n_values == 226
+    run = archive.section_run[0]
+    #assert len(run.section_system) == 2
+    #assert len(run.section_single_configuration_calculation) == 2
+    #assert run.section_single_configuration_calculation[0].x_example_magic_value == 42

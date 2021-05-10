@@ -19,10 +19,15 @@
 
 import sys
 import json
+import logging
 
+from nomad.utils import configure_logging
+from nomad.datamodel import EntryArchive
+from aptfimleapparser import AptFimLeapParser
 
-from eelsdbconverter import EELSApiJsonConverter
 
 if __name__ == "__main__":
-    archive = EELSApiJsonConverter.main(sys.argv[1])
-    print(json.dumps(archive.m_to_dict(), indent=2))
+    configure_logging(console_log_level=logging.DEBUG)
+    archive = EntryArchive()
+    AptFimLeapParser().parse(sys.argv[1], archive, logging)
+    json.dump(archive.m_to_dict(), sys.stdout, indent=2)
